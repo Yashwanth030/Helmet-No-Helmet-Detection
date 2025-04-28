@@ -1,4 +1,4 @@
-#🚨 Helmet Detection and Alert System
+🚨 Helmet Detection and Alert System
 📜 Project Description
 The Helmet Detection and Alert System is a real-time AI-based application built using Python and a custom YOLOv8 model. It detects whether individuals captured on a webcam are wearing helmets. If a person without a helmet is detected, an automatic alarm sound is triggered, and the detection details (timestamp, class, confidence, and ID) are logged for record-keeping. This system promotes safety compliance in traffic monitoring, construction sites, and industrial workplaces.
 
