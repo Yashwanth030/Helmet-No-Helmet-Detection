@@ -1,27 +1,20 @@
 🚨 Helmet Detection and Alert System
+
 📜 Project Description
 The Helmet Detection and Alert System is a real-time AI-based application built using Python and a custom YOLOv8 model. It detects whether individuals captured on a webcam are wearing helmets. If a person without a helmet is detected, an automatic alarm sound is triggered, and the detection details (timestamp, class, confidence, and ID) are logged for record-keeping. This system promotes safety compliance in traffic monitoring, construction sites, and industrial workplaces.
 
 🛠️ Technologies Used
 Python 3
-
 OpenCV (for video processing)
-
 Ultralytics YOLOv8 (for object detection)
-
 NumPy (for centroid tracking)
-
 Winsound (for sound alerts on Windows)
 
 🚀 Features
 Real-time helmet and no-helmet detection via webcam.
-
 Sound alert when a person without a helmet is detected.
-
 Live count display of helmeted and non-helmeted individuals.
-
 Logging of all detections into a text file with timestamps.
-
 Person tracking to avoid double-counting based on centroid distance.
 
 📂 Project Structure
@@ -33,6 +26,7 @@ helmet-detection/
 ├── helmet_detection.py        # Main Python script
 ├── detections_log.txt         # Auto-generated log file
 ├── README.md                  # Project documentation
+
 ⚙️ Setup Instructions
 Clone the Repository
 
@@ -64,16 +58,13 @@ If you want to run on Linux or Mac, the sound part needs to be replaced (for exa
 Adjust the confidence threshold or distance threshold in the code if needed for your environment.
 
 📷 Demo
-(Insert a GIF or screenshot here showing the system detecting a helmet and triggering sound without helmet.)
+we will open our webcam when we run 
 
 🏁 Future Improvements
 Extend support for multi-camera systems.
-
 Deploy it as a web or mobile application.
-
 Add automatic reporting/notifications to supervisors.
 
 🤝 Acknowledgements
 YOLOv8 by Ultralytics
-
 OpenCV Team
