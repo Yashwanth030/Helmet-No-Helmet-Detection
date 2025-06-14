@@ -65,9 +65,6 @@ Check if the webcam is free (no other apps using it).
 Allow access if permission is required.
 Try using cv2.VideoCapture(1) if you have multiple cameras.
 
-## Demo
-(You can later replace this with a real screenshot or video GIF of your working project!)
-
 ## Contribution
 If you wish to improve the model accuracy or add features (like face recognition, better tracking, etc.)
 
