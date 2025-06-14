@@ -46,7 +46,6 @@ pip install opencv-python numpy ultralytics
 The YOLOv8 model (best.pt) is trained to classify:
 Class 0 → Helmet
 Class 1 → No Helmet
-(If your model's classes are different, adjust the class IDs in the script.)
 
 ## How To Run
 Make sure best.pt is placed in the same folder as the script.
@@ -61,7 +60,7 @@ The beep alert only plays for detections without helmets.
 Detection logs will be saved automatically into detections_log.txt.
 
 If the webcam does not open:
-Check if the webcam is free (no other apps using it).
+Check if the webcam is free.
 Allow access if permission is required.
 Try using cv2.VideoCapture(1) if you have multiple cameras.
 
